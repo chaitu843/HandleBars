@@ -1,31 +1,39 @@
 {
     "characters" : [
         {
-            "name" :  "Jon Snow",
-            "shortCode" : "jon-snow",
-            "actor" : "Kit Harrington",
-            "house" : "Stark",
-            "location" : "The Wall"
+            "bio" : {
+                "name" :  "Jon Snow",
+                "shortCode" : "jon-snow",
+                "actor" : "Kit Harrington",
+                "house" : "Stark",
+                "location" : "The Wall"
+            }
         },
         {
+            "bio" : {
             "name" :  "Tyrion Lannister",
             "shortCode" : "The Imp",
             "actor" : "Peter Dinklage",
             "house" : "Lannister"
+            }
         },
         {
+            "bio" : {
             "name" :  "Arya Stark",
             "shortCode" : "No One",
             "actor" : "Maisie Williams",
             "house" : "Stark",
             "location" : "Winter Fell"
+            }
         },
         {
+            "bio" : {
             "name" :  "Daenerys Targaryen",
             "shortCode" : "Dany",
             "actor" : "Emilia Clarke",
             "house" : "Targaryen",
             "location" : "Dragon Stone"
+            }
         }
     ]
 }
