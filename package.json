@@ -1,0 +1,21 @@
+{
+  "name": "hbs",
+  "version": "1.0.0",
+  "description": "Beginning Stage",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaitu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "handlebars": "^4.1.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0"
+  }
+}
