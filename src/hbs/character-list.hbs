@@ -1,19 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
 <body>
     <h1>Game of Thrones</h1>
     <ul class="character-list" style="list-style: none">
-        {{#each characters}}
-        {{#with bio}}
-        <li>
-            <h2>{{name}}</h2>
-            <p>Actor : {{actor}}</p>
-            <p>House : {{house}}</p>
-            {{#if location}}<p>WhereAbouts : {{location}}</p>{{/if}}
-        </li>
-        {{/with}}
-        {{/each}}
+        {{#customEach characters}}
+        {{> character this.bio}}
+        {{/customEach}}
     </ul>
-    <script src="../../src/js/jquery.min.js"></script>
-    <script src="../../src/js/index.js"></script>
 </body>
-
 </html>
